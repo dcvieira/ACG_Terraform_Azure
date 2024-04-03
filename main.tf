@@ -24,7 +24,7 @@ resource "azurerm_resource_group" "rg" {
   location = "Central US"
 }
 
-resource "azurerm_resource_group" "rg" {
+resource "azurerm_resource_group" "rg2" {
   name     = "cguru-tf-rg2"
   location = "Central US"
 }
