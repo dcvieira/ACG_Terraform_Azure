@@ -24,6 +24,11 @@ resource "azurerm_resource_group" "rg" {
   location = "Central US"
 }
 
+resource "azurerm_resource_group" "rg" {
+  name     = "cguru-tf-rg2"
+  location = "Central US"
+}
+
 resource "azurerm_storage_account" "storage" {
   name                     = "stgcguru"
   location                 = azurerm_resource_group.rg.location
